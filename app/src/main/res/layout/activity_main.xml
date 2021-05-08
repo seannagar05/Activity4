@@ -72,7 +72,9 @@
         android:id="@+id/imageView"
         android:layout_width="194dp"
         android:layout_height="233dp"
-        app:srcCompat="@drawable/icon_login"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="465dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goback"
+        app:srcCompat="@drawable/icon_login" />
 </androidx.constraintlayout.widget.ConstraintLayout>
